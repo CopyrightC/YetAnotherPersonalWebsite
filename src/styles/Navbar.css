@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.nav-item{
+    color: rgb(197, 182, 182);
+    position: relative;
+    overflow: hidden;
+    transition: 200ms;
+    padding:.5rem;
+    font-family: 'QuickSand', sans-serif;
+}
+.nav-item:hover::after{
+    z-index: 1;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    transform: translateX(0);
+}
+.nav-item:hover{
+    cursor: pointer;
+    color:rgb(172, 172, 112);
+}
+.nav-item:hover::before{
+    z-index: 1;
+    background-color: #4158D0;
+    background-image: linear-gradient(100deg, #FFCC70 6%, #C850C0 46%, #4158D0 0%);
+    transform: translateX(0);
+}
+.nav-item::before{
+    content: '';
+    position: absolute;
+    bottom: 0rem;
+    transition: 200ms;
+    left: 0;
+    width:100%;
+    transform: translateX(100%);
+    height: .13rem;
+    background-color: black;
+}
+.nav-item::after{
+    content: '';
+    transition: 200ms;
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    width:100%;
+    transform: translateX(-100%);
+    height: .2rem;
+    background-color: black;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100vw;
+    height: 10vh;
+    background-color: rgb(32, 27, 27);
+    box-shadow: .1rem .1rem .1rem .1rem rgb(24, 20, 20);
+}

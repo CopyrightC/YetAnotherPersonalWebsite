@@ -1,0 +1,72 @@
+.hi{
+    font-family: "betterday";
+    color: white;
+    font-size: 10rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+.about-me{
+    font-family: 'QuickSand';
+    color :white;
+    margin-top : 5rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.meme{
+    width: 25rem;
+    transition: 200ms;
+}
+.meme:hover{
+    width: 30rem;
+    
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+#img-desc{
+    font-style: italic;
+    font-size: 1rem;
+    margin-right:1rem;
+}
+.topics{
+    color:white;
+    font-family: 'QuickSand';
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.li-topic{
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+a{
+    color:yellow;
+}
+.desktop{
+    width: 35vw;
+    transition: 200ms;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.desktop:hover{
+    width: 40vw;
+    /* height: 20rem; */
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    display: flex;
+}
+
+hr{
+    width: 85%;
+    color:rgb(49, 43, 43);
+    box-shadow: .1rem .1rem .1rem .1rem rgb(24, 20, 20);
+    margin: 2rem 0;
+}
