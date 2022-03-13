@@ -1,0 +1,61 @@
+.project{
+    width: 45rem;
+    height: 10rem;
+    background-color: rgb(43, 42, 41);
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: .3rem;
+    transition: 200ms;
+    box-shadow: .2rem .2rem .2rem .2rem rgb(37, 35, 35);
+}
+
+.project:hover{
+    width: 46rem;
+    cursor: pointer;
+    height: 11rem;
+}
+
+.header{
+    color:rgb(189, 103, 103);
+    font-size: 2rem;
+    margin: 1rem 0 0 1rem;
+    font-family: 'fira code';
+}
+
+.proj-desc{
+    color:white;
+    margin-left: 1rem;
+    font-family: 'fira code';
+}
+
+.star{
+    width:1.5rem;
+    margin-left: 5rem;
+    height: 1.5rem;
+}
+
+.stars{
+    color:white;
+    position: relative;
+    bottom:0.8rem;
+    margin-left: .5rem;
+}
+
+.lang-color{
+    border-radius: 50%;
+    background-color: yellow;
+    width: 1.5rem;
+    height:1.5rem;
+    margin-left: 0.8rem;
+}
+.language{
+    color:white;
+    position: relative;
+    bottom:0.9rem;
+    margin-left: 0.5rem;
+}
+
+.langs{
+    display: flex;
+    margin-left: .1rem;
+}

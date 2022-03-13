@@ -2,3 +2,12 @@
     font-family: 'betterday';
     src: url('../fonts/betterday.ttf');
 }
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.no-link{
+    text-decoration: none;
+}

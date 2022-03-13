@@ -1,0 +1,10 @@
+.projects{
+    display: grid;
+    place-items: center;
+}
+
+.projects-header{
+    color: white;
+    font-family: 'QuickSand';
+    font-size: 2rem;
+}

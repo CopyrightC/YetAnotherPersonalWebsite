@@ -1,10 +1,13 @@
 import React from 'react'
+import { ScrollUp } from './ScrollUp'
 import "../styles/Home.css"
+
 export const Home = () => {
   return (
-    <div class="home">
-        <div class="hi">Welcome</div>
-        <div class="about-me">
+    <div className="home">
+        <ScrollUp/>
+        <div className="hi">Welcome</div>
+        <div className="about-me">
             Hi, My name is Shourya. On the Internet I'm known as Copyright(C), I know that's a weird name!
             <br/>
             <p>
@@ -12,30 +15,39 @@ export const Home = () => {
             </p>
             
             <br/>
-            <img src="https://i.redd.it/qp896v8jbym81.jpg" class="meme"/>
+            <img src="https://i.redd.it/qp896v8jbym81.jpg" className="meme"/>
             <br></br>
             <p id="img-desc">That was funny, wasn't it?</p>
         </div>
-        <div class="topics">
-            <p class="topic">
-                <li class="li-topic">Programming</li>
+        <div className="topics">
+            <p className="topic">
+                <li className="li-topic">Programming</li>
                 I've been programming for nearly 2 years now. I love making websites, mobile apps and also competitive programming.
+                I primarily code in C++, JavaScript and Python.
                 I've made several cool projects, you can check few of 'em <a href="/projects">here</a>
             </p>
             <hr/>
-            <p class="topic">
-                <li class="li-topic">Chess</li>
-                I've been playing chess for about 8 years now. My dad taught me chess when I was 7. Here's my chess.com id.
+            <p className="topic">
+                <li className="li-topic">Chess</li>
+                I've been playing chess for about 8 years now. My dad taught me chess when I was 7. <a href="https://www.chess.com/member/CopyrightC" target="_blank">Here's</a> my chess.com id, we can be frens!
                 Head to <a href="/chess">chess</a> section to see my best chess moments!
             </p>
             <hr/>
-            <p class="topic">
-                <li class="li-topic">Interests</li>
-                Apart from programming and chess I like studying deep about linux. I love to try different distros, and taking about distros did I tell you I use Arch?
+
+            <p className="topic">
+                <li className="li-topic">Typing</li>
+                I can type really fast. I average around 92-95wpm, my personal best being 110wpm. I practice regularly on <a href="https://monkeytype.com/" target="blank">monkeytype</a>
+                <br/>
+                <img src="https://imgur.com/1x2Ewka.png" className="desktop"/>
             </p>
             <hr/>
-            <p class="topic">
-                <li class="li-topic"> Desktop Ricing</li>
+            <p className="topic">
+                <li className="li-topic">Interests</li>
+                Apart from programming and chess I like studying deep about linux. I love to try different distros, and taking about distros did I tell ya I use Arch?
+            </p>
+            <hr/>
+            <p className="topic">
+                <li className="li-topic"> Desktop Ricing</li>
                 Everyone wants to have a cool desktop and I'm also one of them. I use <a href="https://www.xfce.org/" target="_blank">xfce</a> on my arch.
                 <br/>
                 Things I use :
@@ -48,18 +60,17 @@ export const Home = () => {
                     <li>Xfce Panel</li>
                 </ul>
                 When you put all of it together it looks something like this - <br/>
-                <div class="imgs">
-                    <div class="row">
-                        <img src="https://imgur.com/GAxJZKq.png" class="desktop"/>
-                        <img src="https://imgur.com/JXcrRWB.png" class="desktop"/>
+                <div className="imgs">
+                    <div className="row">
+                        <img src="https://imgur.com/GAxJZKq.png" className="desktop"/>
+                        <img src="https://imgur.com/JXcrRWB.png" className="desktop"/>
                     </div>
-                    <div class="row">
-                        <img src="https://imgur.com/zBsCulp.png" class="desktop"/>
-                        <img src="https://imgur.com/qbTjWjT.png" class="desktop"/>
+                    <div className="row">
+                        <img src="https://imgur.com/zBsCulp.png" className="desktop"/>
+                        <img src="https://imgur.com/qbTjWjT.png" className="desktop"/>
                     </div>
                 </div>
             </p>
-            
         </div>
     </div>
   )

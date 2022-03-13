@@ -1,0 +1,19 @@
+.scroll-up{
+    width:4rem;
+    height:4rem;
+    background-color: rgb(82, 69, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    position: fixed;
+    bottom: 1rem;
+    transition: 200ms;
+    right: 1rem;
+}
+
+.scroll-up:hover{
+    width: 4.5rem;
+    height: 4.5rem;
+    cursor: pointer;
+}
