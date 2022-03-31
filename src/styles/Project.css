@@ -1,9 +1,8 @@
 .project{
-    width: 45rem;
+    width: 40rem;
     height: 10rem;
     background-color: rgb(43, 42, 41);
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin:2rem;
     border-radius: .3rem;
     transition: 200ms;
     box-shadow: .2rem .2rem .2rem .2rem rgb(37, 35, 35);
@@ -43,7 +42,7 @@
 
 .lang-color{
     border-radius: 50%;
-    background-color: yellow;
+    background-color: rgb(168, 25, 149);
     width: 1.5rem;
     height:1.5rem;
     margin-left: 0.8rem;

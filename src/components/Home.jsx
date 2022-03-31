@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <div className="home">
         <ScrollUp/>
-        <div className="hi">Welcome</div>
+        <div className="hi">Welcome !</div>
         <div className="about-me">
             Hi, My name is Shourya. On the Internet I'm known as Copyright(C), I know that's a weird name!
             <br/>
@@ -29,21 +29,21 @@ export const Home = () => {
             <hr/>
             <p className="topic">
                 <li className="li-topic">Chess</li>
-                I've been playing chess for about 8 years now. My dad taught me chess when I was 7. <a href="https://www.chess.com/member/CopyrightC" target="_blank">Here's</a> my chess.com id, we can be frens!
+                I've been playing chess for about 8 years now. My dad taught me chess when I was 7. <a href="https://www.chess.com/member/CopyrightC" target="_blank">Here's</a> my chess.com ID, we can be frens!
                 Head to <a href="/chess">chess</a> section to see my best chess moments!
             </p>
             <hr/>
 
             <p className="topic">
                 <li className="li-topic">Typing</li>
-                I can type really fast. I average around 92-95wpm, my personal best being 110wpm. I practice regularly on <a href="https://monkeytype.com/" target="blank">monkeytype</a>
+                I can type really fast. I average around 95-100wpm, my personal best being 120wpm. I practice regularly on <a href="https://monkeytype.com/" target="blank">monkeytype</a>
                 <br/>
-                <img src="https://imgur.com/1x2Ewka.png" className="desktop"/>
+                <img src="https://imgur.com/hq5fOhJ.png" className="desktop"/>
             </p>
             <hr/>
             <p className="topic">
                 <li className="li-topic">Interests</li>
-                Apart from programming and chess I like studying deep about linux. I love to try different distros, and taking about distros did I tell ya I use Arch?
+                Apart from programming and chess I like studying deep about linux. I also love to try different distros, and taking about distros did I tell ya I use Arch?
             </p>
             <hr/>
             <p className="topic">
