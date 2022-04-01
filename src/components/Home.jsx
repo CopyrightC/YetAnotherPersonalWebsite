@@ -36,7 +36,7 @@ export const Home = () => {
 
             <p className="topic">
                 <li className="li-topic">Typing</li>
-                I can type really fast. I average around 95-100wpm, my personal best being 120wpm. I practice regularly on <a href="https://monkeytype.com/" target="blank">monkeytype</a>
+                I can type really fast. I average around 95-105wpm, my personal best being 120wpm. I practice regularly on <a href="https://monkeytype.com/" target="blank">monkeytype</a>
                 <br/>
                 <img src="https://imgur.com/hq5fOhJ.png" className="desktop"/>
             </p>
