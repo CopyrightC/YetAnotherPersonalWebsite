@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.chess{
+    /* margin-top: 2rem; */
+    margin-left: 2rem;
+    width:32rem;
+    transition: 200ms;
+    font-size: 1.4em;
+    border-radius: .3rem;
+    height:15rem;
+    padding : 1rem;
+    background-color: rgb(43, 40, 40);
+}
+
+.chess > p{
+    margin-bottom: -1.5rem;
+    font-family: 'VT323', monospace;
+}
+
+.chess:hover{
+    cursor: pointer;
+    width: 35rem;
+    height: 18rem;
+}

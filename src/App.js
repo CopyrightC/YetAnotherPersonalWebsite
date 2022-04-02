@@ -1,7 +1,6 @@
 import {Navbar} from "./components/Navbar"
 import './App.css';
 import {Home} from "./components/Home"
-import { Chess } from "./components/Chess";
 import {
   BrowserRouter as Router,
   Routes,
@@ -20,7 +19,6 @@ function App() {
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/projects" element={<Projects/>}/>
         <Route exact path="/contact" element={<Contact/>}/>
-        <Route exact path="/chess" element={<Chess/>}/>
       </Routes>
     </Router>
   );

@@ -11,3 +11,6 @@ html{
 .no-link{
     text-decoration: none;
 }
+img{
+    border-radius: 0.3rem;
+}
