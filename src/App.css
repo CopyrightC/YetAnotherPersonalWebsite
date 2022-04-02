@@ -7,10 +7,211 @@ html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-
 .no-link{
     text-decoration: none;
 }
 img{
     border-radius: 0.3rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:1456px){
+    html{
+        font-size: 90%;
+    }
+}
+
+@media (max-width:1366px){
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (max-width:1190px){
+    html{
+        font-size: 70%;
+    }
+}
+
+@media (max-width:1035px){
+    html{
+        font-size: 62%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+}
+
+@media (max-width:925px){
+    html{
+        font-size: 59%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+}
+
+
+@media (max-width:845px){
+    html{
+        font-size: 55%;
+    }
+    .nav-item{
+        font-size: 180%;
+    }
+    .nav{
+        height: 8rem;
+    }
+}
+
+@media (max-width:820px){
+    html{
+        font-size: 52%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+}
+
+@media (max-width:750px){
+    html{
+        font-size: 48%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+}
+
+@media (min-width:1000px){
+    .desktop:hover{
+        width: 40vw;
+        /* height: 20rem; */
+    }
+    .project-card:hover{
+        width: 46rem;
+        cursor: pointer;
+        height: 11rem;
+    }
+    .meme:hover{
+        width: 30rem;
+        
+    }
+    .chess:hover{
+        cursor: pointer;
+        width: 35rem;
+        height: 18rem;
+    }
+    
+    .scroll-up:hover{
+        width: 4.5rem;
+        height: 4.5rem;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:690px){
+    html{
+        font-size: 45%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+}
+
+@media (max-width:640px){
+    html{
+        font-size: 42%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+}
+
+@media (max-width:585px){
+    html{
+        font-size: 40%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+}
+
+@media (max-width:550px){
+    html{
+        font-size: 38%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+}
+
+@media (max-width:515px){
+    html{
+        font-size: 35%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+}
+
+@media (max-width:475px){
+    html{
+        font-size: 33%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+}
+
+
+@media (max-width:450px){
+    html{
+        font-size: 31%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+}
+
+@media (max-width:420px){
+    html{
+        font-size: 65%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+    .project-card{
+        width: 70vw;
+    }
+}
+
+@media (max-width:370px){
+    html{
+        font-size: 60%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+    
+}
+
+@media (max-width:340px){
+    html{
+        font-size: 55%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
+    
+}
+
+@media (max-width:309px){
+    html{
+        font-size: 50%;
+    }
+    .nav-item{
+        font-size: 150%;
+    }
 }

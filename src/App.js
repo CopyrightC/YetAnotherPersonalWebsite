@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import { Projects } from "./components/Projects";
+import { ProjectsAPI} from "./components/ProjectsAPI";
 import {Contact} from "./components/Contact"
 import React from "react";
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/projects" element={<Projects/>}/>
+        <Route exact path="/projects" element={<ProjectsAPI/>}/>
         <Route exact path="/contact" element={<Contact/>}/>
       </Routes>
     </Router>

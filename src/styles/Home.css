@@ -10,17 +10,14 @@
     color :white;
     margin-top : 5rem;
     line-height: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 .meme{
     width: 25rem;
     transition: 200ms;
 }
-.meme:hover{
-    width: 30rem;
-    
-}
+
 .home{
     display: flex;
     flex-direction: column;
@@ -52,26 +49,34 @@ a{
     margin-top: 2rem;
     margin-left: 2rem;
 }
-.desktop:hover{
-    width: 40vw;
-    /* height: 20rem; */
+
+.ul{
+    font-size: 1.8rem;
 }
+
+
 .imgs{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* margin-bottom: ; */
 }
 .row{
     display: flex;
 }
-
+.row-img{
+    display: flex;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
 hr{
     width: 85%;
-    color:rgb(49, 43, 43);
+    border-color:rgb(49, 43, 43);
     box-shadow: .1rem .1rem .1rem .1rem rgb(24, 20, 20);
     margin: 2rem 0;
 }
 
 .topic{
-    max-width: 90vw;
+    max-width: 85vw;
+    font-size: 1.5rem;
 }

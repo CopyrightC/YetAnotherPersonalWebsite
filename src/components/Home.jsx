@@ -1,6 +1,6 @@
 import React from 'react'
 import { ScrollUp } from './ScrollUp'
-import { Projects } from './Projects'
+import { Projects } from './ProjectsAPI'
 import { ChessAPI } from './ChessAPI'
 import "../styles/Home.css"
 
@@ -57,7 +57,7 @@ export const Home = () => {
                     Things I use :
                     
                 </p>
-                <ul>
+                <ul class="ul">
                     <li>Conky</li>
                     <li>Xfce4-terminal</li>
                     <li>Plank dock</li>
@@ -65,13 +65,13 @@ export const Home = () => {
                     <li>Qogir Icon Themes</li>
                     <li>Xfce Panel</li>
                 </ul>
-                When you put all of it together it looks something like this - <br/>
+                <p className="topic">When you put all of it together it looks something like this - </p>
                 <div className="imgs">
-                        <div className="row">
+                        <div className="row-img">
                             <img src="https://imgur.com/GAxJZKq.png" className="desktop"/>
                             <img src="https://imgur.com/JXcrRWB.png" className="desktop"/>
                         </div>
-                        <div className="row">
+                        <div className="row-img">
                             <img src="https://imgur.com/zBsCulp.png" className="desktop"/>
                             <img src="https://imgur.com/qbTjWjT.png" className="desktop"/>
                         </div>

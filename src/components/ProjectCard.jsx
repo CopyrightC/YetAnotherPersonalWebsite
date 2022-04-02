@@ -1,13 +1,14 @@
 import React from 'react'
-import "../styles/Project.css"
-export const Project = (props) => {
+import "../styles/ProjectCard.css"
+
+export const ProjectCard = (props) => {
   let color = "red"
   if(props.lang === "Python") color = "rgb(101, 103, 209)"
   else if(props.lang === "JavaScript") color = "yellow"
   else if (props.lang === "C#") color = "green"
   else if (props.lang === "C++") color = "rgb(255,105,180)"
   return (
-    <div className='project'>
+    <div className='project-card'>
       <h3 className="header">{props.name}</h3>
       <p className="proj-desc">
         {props.desc}

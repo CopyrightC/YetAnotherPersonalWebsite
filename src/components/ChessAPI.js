@@ -1,6 +1,6 @@
 import React from 'react'
 import { Chess } from './Chess'
-import { Projects2 } from './Projects2';
+import { Projects2 } from './Projects';
 export const ChessAPI = () => {
     const [data,setData] = React.useState();
     async function getData(){

@@ -1,18 +1,16 @@
-.project{
-    width: 40rem;
-    height: 10rem;
+.project-card{
+    width: 40vw;
+    height: 10%;
     background-color: rgb(43, 42, 41);
     margin:2rem;
     border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
     transition: 200ms;
     box-shadow: .2rem .2rem .2rem .2rem rgb(37, 35, 35);
 }
 
-.project:hover{
-    width: 46rem;
-    cursor: pointer;
-    height: 11rem;
-}
+
 
 .header{
     color:rgb(189, 103, 103);
@@ -57,4 +55,22 @@
 .langs{
     display: flex;
     margin-left: .1rem;
+}
+
+
+@media(max-width:740px){
+    .project-card{
+        width: 90vw;
+        margin-top: 5rem;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .project-card:hover{
+        width: 80rem;
+        height: 10rem;
+    }
+    .scroll-up{
+        display: none;
+    }
 }
