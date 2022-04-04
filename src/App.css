@@ -6,6 +6,17 @@
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    /* background-color: rgb(35, 117, 84); */
+}
+
+#App{
+    min-height: 100vh;
+}
+.AppLight{
+    background-color: rgb(35, 117, 84);
+}
+.AppDark{
+    background-color: #121212;
 }
 .no-link{
     text-decoration: none;
@@ -92,13 +103,12 @@ img{
     .project-card:hover{
         width: 46rem;
         cursor: pointer;
-        height: 11rem;
     }
     .meme:hover{
         width: 30rem;
         
     }
-    .chess:hover{
+    #chessDiv:hover{
         cursor: pointer;
         width: 35rem;
         height: 18rem;

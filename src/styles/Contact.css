@@ -1,6 +1,6 @@
 .contact-header{
     font-family: 'betterday';
-    color: white;
+    color: rgb(156, 194, 224);
     font-size: 10rem;
     text-align: center;
 }
@@ -27,5 +27,7 @@
     color:white;
     font-family: 'QuickSand';
     font-size: 1.3rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
     text-align: center;
 }

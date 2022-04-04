@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Quicksand:wght@300&display=swap');
 
 .nav-item{
-    color: rgb(197, 182, 182);
+    color: rgb(61, 212, 61);
     position: relative;
     overflow:hidden;
     transition: 200ms;
@@ -36,6 +36,23 @@
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     transform: translateX(0);
 }
+
+.logo{
+    height:4.9rem;
+    width:6.4rem;
+    position: relative;
+    left: 1rem;
+    top:0.5rem;
+}
+
+
+.links{
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 4%;
+}
 .nav-item:hover{
     cursor: pointer;
     color:rgb(172, 172, 112);
@@ -47,12 +64,64 @@
     transform: translateX(0);
 }
 
+
+#toggle{
+    position: absolute;
+    left: 1000000000px;
+}
+
+#toggle + label{
+    display: flex;
+    position: relative;
+}
+
+#toggle + label::before{
+    content : "";
+    width: 5rem;
+    height: 2.2rem;
+    margin-right:  3rem;
+    border-radius: 1.2rem;
+    background-color: rgb(197, 177, 177);
+}
+
+#toggle:checked + label::after{
+    transform: translateX(100%);
+}
+
+#toggle:checked + label::before{
+    background-color: #474b40;
+}
+
+#toggle + label::after{
+    content : "";
+    transition: 200ms;
+    width: 2.37rem;
+    height: 2rem;
+    left:0.15rem;
+    top:0.092rem;
+    border-radius: 1.2rem;
+    background-color: #dddfda;
+    background-image: url("https://cdn-icons.flaticon.com/png/512/5041/premium/5041877.png?token=exp=1649079100~hmac=0755eba79baddd6d135a9c8d8d5ef1b0");
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.dark-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height: 5rem;
+    background-color: #121212;
+    /* box-shadow: .1rem .1rem .1rem .1rem rgb(24, 20, 20); */
+}
+
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width:100vw;
     height: 5rem;
-    background-color: rgb(32, 27, 27);
-    box-shadow: .1rem .1rem .1rem .1rem rgb(24, 20, 20);
+    /* background-color: rgb(32, 27, 27); */
+    /* box-shadow: .1rem .1rem .1rem .1rem rgb(24, 20, 20); */
 }

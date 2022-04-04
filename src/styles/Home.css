@@ -1,6 +1,6 @@
 .hi{
     font-family: "betterday";
-    color: rgb(247, 111, 111);
+    color: rgb(156, 194, 224);
     font-size: 10rem;
     margin-top: 5rem;
     text-align: center;
@@ -28,7 +28,7 @@
     margin-right:1rem;
 }
 .topics{
-    color:white;
+    color:rgb(135, 255, 225);
     font-family: 'QuickSand';
     font-size: 1.5rem;
     margin-left: 4rem;
@@ -38,7 +38,7 @@
 .li-topic{
     text-decoration: underline;
     margin-bottom: 2rem;
-    color:rgb(170, 142, 91);
+    color:rgb(250, 167, 13);
 }
 a{
     color:yellow;
@@ -47,7 +47,7 @@ a{
     width: 35vw;
     transition: 200ms;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .ul{
@@ -71,11 +71,17 @@ a{
 }
 hr{
     width: 85%;
-    border-color:rgb(49, 43, 43);
-    box-shadow: .1rem .1rem .1rem .1rem rgb(24, 20, 20);
+    
     margin: 2rem 0;
 }
-
+.lightHr{
+    border-color:rgb(184, 175, 175);
+    box-shadow: .1rem .1rem .1rem .1rem rgb(247, 158, 158);
+}
+.darkHr{
+    border-color:rgb(49, 43, 43);
+    box-shadow: .1rem .1rem .1rem .1rem rgb(24, 20, 20);
+}
 .topic{
     max-width: 85vw;
     font-size: 1.5rem;

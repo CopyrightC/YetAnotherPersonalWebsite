@@ -1,19 +1,18 @@
 .project-card{
     width: 40vw;
     height: 10%;
-    background-color: rgb(43, 42, 41);
+    background-color: rgb(199, 149, 99);
     margin:2rem;
     border-radius: .3rem;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     transition: 200ms;
-    box-shadow: .2rem .2rem .2rem .2rem rgb(37, 35, 35);
+    box-shadow: .2rem .2rem .2rem .2rem rgb(112, 96, 96);
 }
 
 
-
 .header{
-    color:rgb(189, 103, 103);
+    color:rgb(134, 85, 85);
     font-size: 2rem;
     margin: 1rem 0 0 1rem;
     font-family: 'fira code';
@@ -65,10 +64,6 @@
     }
     .row{
         flex-direction: column;
-    }
-    .project-card:hover{
-        width: 80rem;
-        height: 10rem;
     }
     .scroll-up{
         display: none;

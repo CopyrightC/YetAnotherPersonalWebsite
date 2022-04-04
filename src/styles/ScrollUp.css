@@ -1,8 +1,9 @@
 .scroll-up{
     width:4rem;
     height:4rem;
-    background-color: rgb(82, 69, 69);
+    background-color: rgb(115, 219, 94);
     display: flex;
+    color:black;    
     justify-content: center;
     align-items: center;
     border-radius: 0.3rem;

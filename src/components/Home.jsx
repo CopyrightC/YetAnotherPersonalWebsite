@@ -30,13 +30,13 @@ export const Home = () => {
                     I primarily code in C++, JavaScript and Python.
                     I've made several cool projects, you can check few of 'em <a href="/projects">here</a>
                 </p>
-                <hr/>
+                <hr className='lightHr'/>
                 <p className="topic">
                     <li className="li-topic">Chess</li>
                     I've been playing chess for about 8 years now. My dad taught it to me when I was 7. <a href="https://www.chess.com/member/CopyrightC" target="_blank">Here's</a> my chess.com ID, we can be frens!
                 </p>
                 <ChessAPI/>
-                <hr/>
+                <hr className='lightHr'/>
 
                 <p className="topic">
                     <li className="li-topic">Typing</li>
@@ -44,12 +44,12 @@ export const Home = () => {
                     <br/>
                     <img src="https://imgur.com/hq5fOhJ.png" className="desktop"/>
                 </p>
-                <hr/>
+                <hr className='lightHr'/>
                 <p className="topic">
                     <li className="li-topic">Interests</li>
                     Apart from programming and chess I like studying deep about linux. I also love to try different distros, and taking about distros did I tell ya I use Arch?
                 </p>
-                <hr/>
+                <hr className='lightHr'/>
                 <p className="topic">
                     <li className="li-topic"> Desktop Ricing</li>
                     Everyone wants to have a cool desktop and I'm also one of them. I use <a href="https://www.xfce.org/" target="_blank">xfce</a> on my arch.

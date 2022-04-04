@@ -1,0 +1,17 @@
+.notfound-img{
+    width: 25rem;
+    height: 25rem;
+}
+
+.notfound{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    width: 100vw;
+}
+.notfound > h3{
+    color: wheat;
+    font-family: "QuickSand";
+    font-size: 2rem;
+}
