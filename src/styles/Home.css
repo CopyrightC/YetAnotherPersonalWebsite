@@ -97,6 +97,7 @@ hr{
         flex-direction: column;
     }
     .desktop{
-        width: 30rem;
+        width: 80%;
+        align-self: center;
     }
 }
