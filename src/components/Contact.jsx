@@ -20,7 +20,7 @@ export const Contact = () => {
         </div>
 
         <p class="hangout">
-            During my free time, I hangout <a href="https://discord.gg/python">here</a>
+            During my free time, I hangout <a href="https://discord.gg/python">here</a> in the offtopic channels with my friends
         </p>
     </div>
   )
