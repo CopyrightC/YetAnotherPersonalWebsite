@@ -1,16 +1,23 @@
 @font-face {
-    font-family: 'betterday';
-    src: url('../fonts/betterday.ttf');
+    font-family: 'ok';
+    src: url('../fonts/mrsmonster.ttf');
 }
-
+*{
+    max-width: 100%;
+}
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    /* max-width: 100%; */
     /* background-color: rgb(35, 117, 84); */
 }
-
+html, body {
+    max-width: 100%;
+    /* overflow-x: hidden; */
+}   
 #App{
     min-height: 100vh;
+    /* width: 100vw; */
 }
 .AppLight{
     background-color: rgb(35, 117, 84);
@@ -93,6 +100,9 @@ img{
     .nav-item{
         font-size: 150%;
     }
+    .hamburger{
+        display: block;
+    }
 }
 
 @media (min-width:1000px){
@@ -100,10 +110,11 @@ img{
         width: 40vw;
         /* height: 20rem; */
     }
-    .project-card:hover{
+    .project-card:hover , .project-card-dark:hover{
         width: 46rem;
         cursor: pointer;
     }
+
     .meme:hover{
         width: 30rem;
         

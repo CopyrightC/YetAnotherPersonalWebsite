@@ -1,7 +1,7 @@
 import React from 'react'
 import { Chess } from './Chess'
 import { Projects2 } from './Projects';
-export const ChessAPI = () => {
+export const ChessAPI = (props) => {
     const [data,setData] = React.useState();
     async function getData(){
         let resp = await fetch('https://api.chess.com/pub/player/copyrightc/stats')
@@ -21,7 +21,7 @@ export const ChessAPI = () => {
     return (
         <>
         {console.log("rednerd")}
-        <Chess data={data}/>
+        <Chess data={data} dark={props.dark}/>
         </>
     )
 }

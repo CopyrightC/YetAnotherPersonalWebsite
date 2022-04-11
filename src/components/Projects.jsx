@@ -35,20 +35,20 @@ export const Projects = (props) => {
                     Here are some of my cool projects -
                 </p>
                 <div className="row">
-                    <ProjectCard name= {starsCountKey[0]} stars={starsCountValue[0]} lang = {langs[0]} desc={descs[0]}/>
-                    <ProjectCard name= {starsCountKey[1]}  stars={starsCountValue[1]} lang = {langs[1]} desc={descs[1]}/>
+                    <ProjectCard name= {starsCountKey[0]} stars={starsCountValue[0]} lang = {langs[0]} desc={descs[0]} dark={props.dark} url="https://www.github.com/CopyrightC/Advance-Hack-with-python" />
+                    <ProjectCard name= {starsCountKey[1]}  stars={starsCountValue[1]} lang = {langs[1]} desc={descs[1]} dark={props.dark} url="https://github.com/CopyrightC/Codeforces-Solutions"/>
                 </div>
                 <div className="row">
-                    <ProjectCard  name= {starsCountKey[2]} stars={starsCountValue[2]} lang = {langs[2]} desc={descs[2]}/>
-                    <ProjectCard name= {starsCountKey[3]} stars={starsCountValue[3]} lang = {langs[3]} desc={descs[3]}/>
+                    <ProjectCard  name= {starsCountKey[2]} stars={starsCountValue[2]} lang = {langs[2]} desc={descs[2]} dark={props.dark} url="https://github.com/CopyrightC/DogeChat"/>
+                    <ProjectCard name= {starsCountKey[3]} stars={starsCountValue[3]} lang = {langs[3]} desc={descs[3]} dark={props.dark} url="https://github.com/CopyrightC/Escape"/>
                 </div>
                 <div className="row">
-                    <ProjectCard name= {starsCountKey[4]} stars={starsCountValue[4]} lang = {langs[4]} desc={descs[4]}/>
-                    <ProjectCard name= {starsCountKey[5]} stars={starsCountValue[5]} lang = {langs[5]} desc={descs[5]}/>
+                    <ProjectCard name= {starsCountKey[4]} stars={starsCountValue[4]} lang = {langs[4]} desc={descs[4]} dark={props.dark} url="https://github.com/CopyrightC/Expert-Hacker"/>
+                    <ProjectCard name= {starsCountKey[5]} stars={starsCountValue[5]} lang = {langs[5]} desc={descs[5]} dark={props.dark} url="https://github.com/CopyrightC/HomeDecor"/>
                 </div>
                 <div className="row">
-                    <ProjectCard name= {starsCountKey[6]} stars={starsCountValue[6]} lang = {langs[6]} desc={descs[6]}/>
-                    <ProjectCard name= {starsCountKey[7]} stars={starsCountValue[7]} lang = {langs[7]} desc={descs[7]}/>
+                    <ProjectCard name= {starsCountKey[6]} stars={starsCountValue[6]} lang = {langs[6]} desc={descs[6]} dark={props.dark} url="https://github.com/CopyrightC/React-native-To-do-list-app"/>
+                    <ProjectCard name= {starsCountKey[7]} stars={starsCountValue[7]} lang = {langs[7]} desc={descs[7]} dark={props.dark} url="https://github.com/CopyrightC/School-Website-SEA"/>
                 </div>
             </div>
         )

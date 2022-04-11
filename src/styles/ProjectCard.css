@@ -10,9 +10,30 @@
     box-shadow: .2rem .2rem .2rem .2rem rgb(112, 96, 96);
 }
 
+.project-card-dark{
+    width: 40vw;
+    height: 70%;
+    background-color: rgb(63, 59, 56);
+    margin:2rem;
+    border-radius: .3rem;
+    /* display: flex;
+    flex-direction: column; */
+    transition: 200ms;
+    box-shadow: .2rem .2rem .2rem .2rem rgba(5, 138, 38, 0.651);
+}
+
+
 
 .header{
-    color:rgb(134, 85, 85);
+    color:rgb(85, 66, 66);
+    font-size: 2rem;
+    margin: 1rem 0 0 1rem;
+    font-family: 'fira code';
+}
+
+
+.header-dark{
+    color:rgb(228, 94, 94);
     font-size: 2rem;
     margin: 1rem 0 0 1rem;
     font-family: 'fira code';
@@ -56,9 +77,12 @@
     margin-left: .1rem;
 }
 
+#card{
+    text-decoration: none;
+}
 
 @media(max-width:740px){
-    .project-card{
+    .project-card , .project-card-dark{
         width: 90vw;
         margin-top: 5rem;
     }

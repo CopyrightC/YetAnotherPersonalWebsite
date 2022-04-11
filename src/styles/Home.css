@@ -1,6 +1,6 @@
 .hi{
-    font-family: "betterday";
-    color: rgb(156, 194, 224);
+    font-family: "ok";
+    color: rgb(212, 167, 20);
     font-size: 10rem;
     margin-top: 5rem;
     text-align: center;
@@ -21,6 +21,8 @@
 .home{
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 #img-desc{
     font-style: italic;
@@ -76,7 +78,7 @@ hr{
 }
 .lightHr{
     border-color:rgb(184, 175, 175);
-    box-shadow: .1rem .1rem .1rem .1rem rgb(247, 158, 158);
+    /* box-shadow: .1rem .1rem .1rem .1rem rgb(247, 158, 158); */
 }
 .darkHr{
     border-color:rgb(49, 43, 43);
@@ -85,4 +87,16 @@ hr{
 .topic{
     max-width: 85vw;
     font-size: 1.5rem;
+}
+
+@media (max-width:768px){
+    .hi{
+        font-size: 9rem;
+    }
+    .row-img{
+        flex-direction: column;
+    }
+    .desktop{
+        width: 30rem;
+    }
 }

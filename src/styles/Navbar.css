@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Quicksand:wght@300&display=swap');
 
 .nav-item{
-    color: rgb(61, 212, 61);
+    color: rgb(112, 240, 197);
     position: relative;
     overflow:hidden;
     transition: 200ms;
     padding:.5rem;
     font-family: 'QuickSand', sans-serif;
 }
-
+.nav-item-dark{
+    color: rgb(76, 192, 23);
+}
 .nav-item::before{
     content: '';
     position: absolute;
@@ -40,8 +42,7 @@
 .logo{
     height:4.9rem;
     width:6.4rem;
-    position: relative;
-    left: 1rem;
+    margin-right: auto;
     top:0.5rem;
 }
 
@@ -50,8 +51,16 @@
     display: flex;
     /* background-color: yellow; */
     justify-content: space-around;
-    width: 90%;
-    margin-left: 4%;
+    width: 50%;
+    /* margin-left: 4%; */
+    height: auto;
+    padding: 0.5rem;
+    align-items: center;
+    margin-right: auto;
+    /* margin-right: 23%; */
+    border-radius: 0.3rem;
+    background-color: rgba(235, 223, 223, 0.123);
+    /* filter: blur(1rem); */
 }
 .nav-item:hover{
     cursor: pointer;
@@ -67,7 +76,7 @@
 
 #toggle{
     position: absolute;
-    left: 1000000000px;
+    display: none;
 }
 
 #toggle + label{
@@ -79,7 +88,7 @@
     content : "";
     width: 5rem;
     height: 2.2rem;
-    margin-right:  3rem;
+    /* margin-right:  3rem; */
     border-radius: 1.2rem;
     background-color: rgb(197, 177, 177);
 }
@@ -91,7 +100,6 @@
 #toggle:checked + label::before{
     background-color: #474b40;
 }
-
 #toggle + label::after{
     content : "";
     transition: 200ms;
@@ -100,8 +108,8 @@
     left:0.15rem;
     top:0.092rem;
     border-radius: 1.2rem;
-    background-color: #dddfda;
-    background-image: url("https://cdn-icons.flaticon.com/png/512/5041/premium/5041877.png?token=exp=1649079100~hmac=0755eba79baddd6d135a9c8d8d5ef1b0");
+    /* background-color: #dddfda; */
+    background-image: url("../../images/moon.png");
     background-size: 100% 100%;
     position: absolute;
 }
@@ -110,9 +118,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width:100vw;
-    height: 5rem;
-    background-color: #121212;
+    /* width:90vw; */
+    height: auto;
+    flex-wrap: wrap;
+    /* background-color: #121212; */
     /* box-shadow: .1rem .1rem .1rem .1rem rgb(24, 20, 20); */
 }
 
@@ -121,7 +130,38 @@
     align-items: center;
     justify-content: center;
     width:100vw;
-    height: 5rem;
-    /* background-color: rgb(32, 27, 27); */
+    height: auto;
+    flex-wrap: wrap;
     /* box-shadow: .1rem .1rem .1rem .1rem rgb(24, 20, 20); */
+}
+
+.hamburger{
+    width: 2.5rem;
+    display: none;
+    margin-right: 2rem;
+    position: absolute;
+    right: 1rem;
+    top:1rem;
+}
+
+
+@media (max-width:750px){
+    .hamburger{
+        display: block;
+    }
+    .links{
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .links.clicked{
+        display: flex;
+        /* width: 200vw; */
+        /* margin-left: 1rem; */
+        /* margin: 0 1rem; */
+    }
+    .nav-item , .nav-item-dark{
+        margin-bottom: 2rem;
+    }
 }

@@ -3,7 +3,7 @@ import "../styles/Chess.css"
 export const Chess = (props) => {
   return (
     props.data !== undefined ?
-    <div className={localStorage.getItem("dark") === "yes" ? "chessDark" : "chessLight"} id="chessDiv"> 
+    <div className={props.dark?"chessDark" : "chessLight"} id="chessDiv"> 
         <p>Highest Rapid Rating : {props.data.chess_rapid.best.rating} </p>
         <p>Highest Bullet Rating : {props.data.chess_bullet.best.rating} </p>
         <p>Highest Puzzle Rush Score : {props.data.puzzle_rush.best.score} </p>

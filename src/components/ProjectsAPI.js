@@ -23,7 +23,7 @@ export const ProjectsAPI = (props) => {
     return (
         <>
         {console.log("wowowoowow")}
-        <Projects  c={data}/>
+        <Projects  c={data} dark={props.dark}/>
         </>
     )
 }
