@@ -14,8 +14,8 @@ export const ChessAPI = (props) => {
 
     React.useEffect(
         ()=>{
-            getData()
-        }
+           getData()
+         }
         ,[])
 
     return (

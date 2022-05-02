@@ -71,7 +71,7 @@ export const Home = (props) => {
                 <p className="topic">When you put all of it together it looks something like this - </p>
                 <div className="imgs">
                         <div className="row-img">
-                            <img src="https://imgur.com/GAxJZKq.png" className="desktop"/>
+                            <img src="https://imgur.com/oYXvXQt.png" className="desktop"/>
                             <img src="https://imgur.com/JXcrRWB.png" className="desktop"/>
                         </div>
                         <div className="row-img">
