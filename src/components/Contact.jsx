@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/Contact.css"
 
 export const Contact = () => {
-//   let heightNav = 
+
   return (
     <div id="contact">
         <p className="contact-header">Contact</p>

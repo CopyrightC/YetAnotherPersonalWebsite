@@ -7,9 +7,9 @@ export const Chess = (props) => {
         <p>Highest Rapid Rating : {props.data.chess_rapid.best.rating} </p>
         <p>Highest Bullet Rating : {props.data.chess_bullet.best.rating} </p>
         <p>Highest Puzzle Rush Score : {props.data.puzzle_rush.best.score} </p>
-        <p>Highest Puzzles Rating : 2298</p>
+        <p>Highest Puzzles Rating :  2379</p>
     </div>
     :
-    <h1 id="chessDiv">ds</h1>
+    <h1 id="chessDiv">Failed to load...</h1>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Chess } from './Chess'
-import { Projects2 } from './Projects';
+
 export const ChessAPI = (props) => {
     const [data,setData] = React.useState();
     async function getData(){
@@ -13,15 +13,8 @@ export const ChessAPI = (props) => {
     }
 
     React.useEffect(
-        ()=>{
-           getData()
-         }
-        ,[])
+       ()=> getData()
+    ,[])
 
-    return (
-        <>
-        {console.log("rednerd")}
-        <Chess data={data} dark={props.dark}/>
-        </>
-    )
+    return <Chess data={data} dark={props.dark}/>
 }

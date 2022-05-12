@@ -10,20 +10,12 @@ export const ProjectsAPI = (props) => {
                 return response.json()
             })
         setData(resp);
-        console.log("dsoaqq");
         return resp
     }
 
     React.useEffect(
-        ()=>{
-            getData()
-        }
-        ,[])
+        ()=> getData()
+    ,[])
 
-    return (
-        <>
-        {console.log("wowowoowow")}
-        <Projects  c={data} dark={props.dark}/>
-        </>
-    )
+    return <Projects  c={data} dark={props.dark}/>
 }

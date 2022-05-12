@@ -8,7 +8,6 @@ export const Home = (props) => {
     
     return (
         <div className="home">
-            {/* <Projects/> */}
             <ScrollUp/>
             <div className="hi">Welcome !</div>
             <div className="about-me">
@@ -41,9 +40,9 @@ export const Home = (props) => {
 
                 <p className="topic">
                     <li className="li-topic">Typing</li>
-                    I can type really fast. I average around 95-105wpm, my personal best being 120wpm. I practice regularly on <a href="https://monkeytype.com/" target="blank">monkeytype</a>
+                    I can type really fast. I average around 100-110wpm, my personal best being 120wpm. I practice regularly on <a href="https://monkeytype.com/" target="blank">monkeytype</a>
                     <br/>
-                    <img src="https://imgur.com/Ea9hFPp.png" className="desktop"/>
+                    <img src="https://imgur.com/NbCfoVp.png" className="desktop"/>
                 </p>
                 <hr className={props.dark ? "darkHr" : "lightHr"}/>
 
