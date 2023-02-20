@@ -25,7 +25,7 @@ export const Home = (props) => {
             <div className="topics">
                 <p className="topic">
                     <li className="li-topic">Programming</li>
-                    I've been programming for nearly 2 years now. I love making websites, mobile apps and also competitive programming.
+                    I've been programming since Dec 2019. I love making websites, mobile apps and also competitive programming.
                     I primarily code in C++, JavaScript and Python.
                     I've made several cool projects, you can check few of 'em <a href="/projects">here</a>
                 </p>
