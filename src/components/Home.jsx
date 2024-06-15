@@ -5,13 +5,13 @@ import { ChessAPI } from './ChessAPI'
 import "../styles/Home.css"
 
 export const Home = (props) => {
-    
+    let currentYear =  new Date().getFullYear()
     return (
         <div className="home">
             <ScrollUp/>
             <div className="hi">Welcome !</div>
             <div className="about-me">
-                Hi, My name is Shourya. On the Internet I'm known as Copyright(C), I know that's a weird name!
+                Hi, My name is Shourya. I'm {currentYear - 2007} years old. On the Internet I'm known as Copyright(C), I know that's a weird name!
                 <br/>
                 <p>
                 I like programming, chess and cat memes a lot {"<"}3 . Here's one of them:
